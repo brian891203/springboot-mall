@@ -1,5 +1,7 @@
 package com.brianljh.springboot_mall.Model;
 import java.util.*;
+
+import com.brianljh.springboot_mall.Constants.ProductCategory;
 /** Product Table Component
  *  product_id         INT          NOT NULL PRIMARY KEY AUTO_INCREMENT,
     product_name       VARCHAR(128) NOT NULL,
@@ -15,7 +17,8 @@ import java.util.*;
 public class Product {
     private Integer product_id;
     private String product_name;
-    private String category;
+    // private String category;
+    private ProductCategory category;
     private String image_url;
     private Integer price;
     private Integer stock;
@@ -35,10 +38,10 @@ public class Product {
     public void setProduct_name(String product_name) {
         this.product_name = product_name;
     }
-    public String getCategory() {
+    public ProductCategory getCategory() {
         return category;
     }
-    public void setCategory(String category) {
+    public void setCategory(ProductCategory category) {
         this.category = category;
     }
     public String getImage_url() {
