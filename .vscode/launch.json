@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootMallApplication<springboot_mall>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.brianljh.springboot_mall.SpringbootMallApplication",
+            "projectName": "springboot_mall",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

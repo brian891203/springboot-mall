@@ -12,6 +12,14 @@ import com.brianljh.springboot_mall.Constants.ProductCategory;
     description        VARCHAR(1024),
     created_date       TIMESTAMP    NOT NULL,
     last_modified_date TIMESTAMP    NOT NULL
+    {
+        "product_name": "BMW",
+        "category": "CAR",
+        "image_url": "https://cdn.pixabay.com/photo/2014/02/01/17/28/apple-256261__480.jpg",
+        "price": 100000,
+        "stock": 100,
+        "description": "This is a BMW car"
+    }
  */
 
 public class Product {
